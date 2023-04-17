@@ -1,0 +1,50 @@
+h1{
+    color: brown;
+}
+.img{
+    width: 300px;
+    height: 350px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-image: url(https://landing.90phut4.xyz/static/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.link-contact{
+    margin: 5px;
+    transform: translateY(0);
+    transition: .1s linear transform;
+}
+
+.link-contact:hover{
+    transform: translateY(-2px);
+}
+.link{
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 5px;
+    line-height: 10px;
+    text-decoration: none;
+    background-color: #425893;
+    color: #fff;
+}
+.link.ms{
+    background-color: #3982f7;
+}
+.link.tl{
+    background-color: #0088cc;
+}
+.contact{
+    display: flex;
+    margin: 10px;
+}
+p{
+    color: #425893;
+}
+.link.ig{
+    background-color: #b43661;
+}
